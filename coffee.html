@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bean Boutique | Coffee</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap navBar">
+        <a class="brand" href="index.html"><i class="fa-solid fa-mug-saucer"></i> Bean Boutique</a>
+        <button class="menu" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav">
+          <a class="navLink" href="index.html">Home</a>
+          <a class="navLink active" href="coffee.html">Coffee</a>
+          <a class="navLink" href="equipment.html">Equipment</a>
+          <a class="navLink" href="events.html">Events</a>
+          <a class="navLink" href="offers.html">Offers</a>
+          <a class="navLink" href="cart.html">Cart <span class="cartCount">0</span></a>
+          <a class="navLink" href="subscribe.html">Subscribe</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main wrap">
+      <section class="pageIntro">
+        <h1 class="pageTitle">Our coffee range</h1>
+        <p>Pick a cup that fits your day and your taste.</p>
+      </section>
+
+      <section class="cards">
+        <article class="card">
+          <img src="data:image/webp;base64,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" class="image" alt="Espresso" />
+          <div class="cardBody">
+            <h3>Espresso shot</h3>
+            <p>Bold and Black.</p>
+            <div class="cardRow">
+              <strong>MWK 14,000</strong>
+              <button class="button small addToCart" data-name="Espresso shot" data-price="14000">Add to cart</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://tse1.mm.bing.net/th/id/OIP.DHj2YHnG6eI8NdEn7V0kZgHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" class="image" alt="Pour over" />
+          <div class="cardBody">
+            <h3>White coffee</h3>
+            <p>Bright citrus aroma and a silky finish.</p>
+            <div class="cardRow">
+              <strong>MWK 16,000</strong>
+              <button class="button small addToCart" data-name="White coffee" data-price="16000">Add to cart</button>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://th.bing.com/th/id/OIP.Xt_ISZlx_6dIqoBFf6VpAwHaEJ?w=202&h=113&c=7&r=0&o=7&pid=1.7&rm=3" class="image" alt="Latte" />
+          <div class="cardBody">
+            <h3>Honey Latte</h3>
+            <p>Soft sweetness with vanilla and spice.</p>
+            <div class="cardRow">
+              <strong>MWK 13,000</strong>
+              <button class="button small addToCart" data-name="Honey Latte" data-price="13000">Add to cart</button>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footerInner">
+        <p>© 2026 Bean Boutique. Crafted for coffee lovers.</p>
+        <div class="socials">
+          <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
