@@ -11,6 +11,7 @@ function addToCart(name, price) {
   cartItems.push({ name: name, price: price });
   updateCartCount();
   alert(name + ' added to cart');
+  renderCart();
 }
 
 function renderCart() {
